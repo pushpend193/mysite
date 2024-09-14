@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Digital Solution</title>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav-icon {
+            margin-right: 8px;
+        }
+
+        .moving-text {
+            background-color: #ffcc00;
+            color: #333;
+            font-size: 24px;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .column {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            width: 30%;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .column h3 {
+            margin-top: 0;
+        }
+
+        .column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .column ul li {
+            margin: 10px 0;
+        }
+
+        .column ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .column ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .signup-section {
+            background-color: #e6e6e6;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .signup-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .signup-section form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .signup-section label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .signup-section input[type="text"],
+        .signup-section input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+
+        .signup-section input[type="submit"] {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .signup-section input[type="submit"]:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home"><i class="fas fa-home nav-icon"></i>Home</a></li>
+            <li><a href="#about"><i class="fas fa-info-circle nav-icon"></i>About Us</a></li>
+            <li><a href="#contact"><i class="fas fa-phone nav-icon"></i>Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Moving Text -->
+    <div class="moving-text">
+        <marquee>KRISHNA DIGITAL SOLUTION WELCOME'S YOU</marquee>
+    </div>
+
+    <!-- Three Columns Section -->
+    <div class="columns">
+        <div class="column">
+            <h3>Latest Vacancy</h3>
+            <ul>
+                <li><a href="#">Vacancy 1</a></li>
+                <li><a href="#">Vacancy 2</a></li>
+                <li><a href="#">Vacancy 3</a></li>
+                <li><a href="#">Vacancy 4</a></li>
+                <li><a href="#">Vacancy 5</a></li>
+                <li><a href="#">Vacancy 6</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Admit Card</h3>
+            <ul>
+                <li><a href="#">Admit Card 1</a></li>
+                <li><a href="#">Admit Card 2</a></li>
+                <li><a href="#">Admit Card 3</a></li>
+                <li><a href="#">Admit Card 4</a></li>
+                <li><a href="#">Admit Card 5</a></li>
+                <li><a href="#">Admit Card 6</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Result</h3>
+            <ul>
+                <li><a href="#">Result 1</a></li>
+                <li><a href="#">Result 2</a></li>
+                <li><a href="#">Result 3</a></li>
+                <li><a href="#">Result 4</a></li>
+                <li><a href="#">Result 5</a></li>
+                <li><a href="#">Result 6</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <div id="home" class="content">
+        <h1>Welcome to Krishna Digital Solution</h1>
+        <p>Your one-stop solution for digital services.</p>
+    </div>
+
+    <!-- About Us Section -->
+    <div id="about" class="content">
+        <h1>About Us</h1>
+        <p>We are a leading provider of digital solutions, offering a wide range of services to help you succeed online.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="content">
+        <h1>Contact</h1>
+        <p>Feel free to reach out to us with any inquiries or questions.</p>
+        <p>Phone: 9026909189</p>
+    </div>
+
+    <!-- Sign Up Section -->
+    <div class="signup-section">
+        <h2>Sign Up</h2>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>
